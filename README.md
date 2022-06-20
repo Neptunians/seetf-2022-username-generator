@@ -125,7 +125,7 @@ The index.html doesn't have a lot, just a simple form for sending a GET to / wit
 
 The index.js javascript referenced there deserves most of our attention.
 
-```javascript=
+```javascript
 const generate = (length) => {
     var result           = '';
     var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
