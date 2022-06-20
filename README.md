@@ -329,7 +329,7 @@ I'm sure I'm forgetting other important protections here. Send me hints for bett
 
 ## References
 * [CTF Time Event](https://ctftime.org/event/1543)
-* [Github repo with the artifacts discussed here](https://github.com/Neptunians/tsj-2022-writeups)
+* [Github repo with the artifacts discussed here](https://github.com/Neptunians/seetf-2022-username-generator)
 * [XSS](https://portswigger.net/web-security/cross-site-scripting)
 * [CSRF](https://portswigger.net/web-security/csrf)
 * [ngrok](https://ngrok.com/)
